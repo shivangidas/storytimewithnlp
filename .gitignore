@@ -129,7 +129,6 @@ dmypy.json
 .pyre/
 
 booksummaries/
-data/
 .DS_Store
 transformers/
 runs/
