@@ -12,9 +12,8 @@ python transformers/examples/language-modeling/run_language_modeling.py \
 --train_data_file=$TRAIN_FILE \
 --do_eval \
 --eval_data_file=$VALID_FILE \
---per_device_train_batch_size=2 \
---per_device_eval_batch_size=2 \
---line_by_line \
+--per_device_train_batch_size=1 \
+--per_device_eval_batch_size=1 \
 --evaluate_during_training \
 --learning_rate 5e-5 \
 --num_train_epochs=1 \
