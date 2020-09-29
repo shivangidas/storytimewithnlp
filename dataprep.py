@@ -9,7 +9,7 @@ def main():
                      names=['wiki_id', 'freebase_id', 'title', 'author', 'pub_date',
                             'genre', 'summary'])
 
-    train_test_ratio = 0.9
+    train_test_ratio = 0.6
     train_valid_ratio = 8/9
     df_full_train, df_test = train_test_split(
         df, train_size=train_test_ratio, random_state=1)
@@ -22,7 +22,7 @@ def main():
 
 
 def build_dataset(df, dest_path):
-    f = open(dest_path, 'w')
+    f = open(dest_path, 'w', encoding="utf-8")
     data = ''
     summaries = df['summary'].tolist()
     for summary in summaries:
