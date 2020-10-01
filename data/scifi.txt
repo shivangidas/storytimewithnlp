@@ -13,7 +13,6 @@ spaceship
 rocket
 mars
 milky way
-universe
 black-hole
 quantum
 lightening
