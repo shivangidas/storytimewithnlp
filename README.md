@@ -14,11 +14,11 @@ Refer [this blog](https://towardsdatascience.com/fine-tuning-gpt2-for-text-gener
 1. install tensorflow, transformers, pytorch
 1. run `sh run_model.sh`
 
-## Plug and play
+# Plug and play
 
 ### Using uber's Plug and Play Language Model (PPLM)
 
 1. git clone pplm model  
    `git clone git@github.com:uber-research/PPLM.git`
-2. run `sh pplmrun.sh [genre]`  
+2. run `sh pplmrun.sh [genre] [output file]`  
    genre options are sci-fi, dystopian, fantasy, romance

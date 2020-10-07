@@ -14,12 +14,12 @@ python PPLM/run_pplm.py \
  --bag_of_words $BOW \
  --output_file $FILE_PATH \
  --pretrained_model distilgpt2 \
- --cond_text "In the beginning there were" \
+ --cond_text "This is the tale of" \
  --num_samples 1 \
  --length 150 \
  --stepsize 0.03 \
  --num_iterations 1 \
- --window_length 10 \
+ --window_length 20 \
  --gamma 1.5 \
  --gm_scale 0.80 \
  --kl_scale 0.04 \
