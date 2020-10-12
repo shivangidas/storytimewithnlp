@@ -16,7 +16,7 @@ python PPLM/run_pplm.py \
  --pretrained_model distilgpt2 \
  --cond_text "This is the tale of" \
  --num_samples 1 \
- --length 150 \
+ --length 200 \
  --stepsize 0.03 \
  --num_iterations 1 \
  --window_length 20 \
