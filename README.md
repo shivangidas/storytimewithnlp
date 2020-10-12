@@ -1,6 +1,22 @@
-# Story time with NLP
+# A brief history of NLP
 
-## Preparing dataset
+### Bag of words
+
+A long long time ago bag-of-words model was used for NLP. It relied on the frequency of words, no sequence or order, and predicted the most obvious next word
+
+### Sequence models
+
+Next came sequence models. Cue RNN and LSTM. Here the effort was put in understanding sentence by 'seeing' words in sequence.
+
+### Attention is all you need
+
+TBD: word association, weighted memory for seen words
+
+### Transformers
+
+TBD: Attention used to predict words in the middle of a sentence to develop better understanding of which words affect the masked word. word context
+
+# Preparing dataset
 
 1. download book summary dataset from [here](https://www.cs.cmu.edu/~dbamman/booksummaries.html)
 1. run `python dataprep.py`
