@@ -10,11 +10,12 @@ Next came sequence models. Cue RNN and LSTM. Here the effort was put in understa
 
 ### Attention is all you need
 
-TBD: word association, weighted memory for seen words
+Based on the idea of word association. Weighted memory for seen words in association with other words in the sentence. Bigger better NLP models developed from here.
 
-### Transformers
+### Big transformers
 
-TBD: Attention used to predict words in the middle of a sentence to develop better understanding of which words affect the masked word. word context
+Self-attention used to predict words in the middle of a sentence to develop better understanding of which words affect the masked word. Develop word context.
+Multiple layers of encoders and decoders offer parallelism. Transformers like BERT and GPT are used for transfer learning, i.e., they are pre-trained on large corpus of general data, then fine-tuned with domain specific data.
 
 # Preparing dataset
 
@@ -32,7 +33,7 @@ Refer [this blog](https://towardsdatascience.com/fine-tuning-gpt2-for-text-gener
 
 # Plug and play
 
-### Using uber's Plug and Play Language Model (PPLM)
+### Using Uber's Plug and Play Language Model (PPLM)
 
 1. git clone pplm model  
    `git clone git@github.com:uber-research/PPLM.git`
