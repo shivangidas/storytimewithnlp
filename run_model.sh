@@ -1,13 +1,13 @@
 #! bin/bash
 N=1
-OUTPUT_DIR=model
+OUTPUT_DIR=summary-model
 TRAIN_FILE=data/train.txt
 VALID_FILE=data/valid.txt
 CUDA_VISIBLE_DEVICES=$N 
-python transformers/examples/language-modeling/run_language_modeling.py \
+python ../transformers/examples/language-modeling/run_language_modeling.py \
 --output_dir=$OUTPUT_DIR \
 --model_type=distilgpt2 \
---model_name_or_path=distilgpt2 \
+--model_name_or_path=$OUTPUT_DIR \
 --do_train \
 --train_data_file=$TRAIN_FILE \
 --do_eval \
