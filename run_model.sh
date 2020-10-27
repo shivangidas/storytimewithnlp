@@ -7,7 +7,7 @@ CUDA_VISIBLE_DEVICES=$N
 python ../transformers/examples/language-modeling/run_language_modeling.py \
 --output_dir=$OUTPUT_DIR \
 --model_type=distilgpt2 \
---model_name_or_path=$OUTPUT_DIR \
+--model_name_or_path=distilgpt2 \
 --do_train \
 --train_data_file=$TRAIN_FILE \
 --do_eval \
