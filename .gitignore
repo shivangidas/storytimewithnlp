@@ -137,3 +137,5 @@ wandb/
 PPLM/
 data/cached*
 summary-model/
+distilgpt2/
+
