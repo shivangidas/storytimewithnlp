@@ -1,6 +1,6 @@
 #! bin/bash
 N=1
-OUTPUT_DIR=summary-model
+OUTPUT_DIR=distilgpt2
 TRAIN_FILE=data/train.txt
 VALID_FILE=data/valid.txt
 CUDA_VISIBLE_DEVICES=$N 

@@ -13,7 +13,7 @@ fi
 python PPLM/run_pplm.py \
  --bag_of_words $BOW \
  --output_file $FILE_PATH \
- --pretrained_model distilgpt2 \
+ --pretrained_model shivangi/distilgpt2 \
  --cond_text "The tale of" \
  --num_samples 1 \
  --length 150 \
